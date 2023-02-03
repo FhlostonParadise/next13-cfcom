@@ -1,7 +1,6 @@
 import '#/styles/globals.css';
 import { AddressBar } from '#/ui/AddressBar';
 import { GlobalNav } from '#/ui/GlobalNav';
-import { VercelLogo } from '#/ui/VercelLogo';
 import { AiOutlineCopyrightCircle } from 'react-icons/ai'
 
 export default function RootLayout({
