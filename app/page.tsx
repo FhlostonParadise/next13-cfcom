@@ -1,10 +1,11 @@
 import Image from 'next/image';
-import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
 import Mbay from '../public/mbay-round.png';
+import SocialBar from '#/components/SocailBar';
+
 export default function Page() {
   return (
     <div className="flex h-full w-full flex-col justify-center">
-      <div className="mx-auto flex flex-col justify-center  ">
+      <div className="mx-auto flex flex-col justify-center ">
         <Image
           className="mx-auto flex rounded-full border-2 border-slate-700 drop-shadow-xl"
           src={Mbay}
@@ -13,16 +14,28 @@ export default function Page() {
           alt="Me"
         />
         <div className="flex flex-col justify-center ">
-          <h1 className="flex justify-center pt-4 text-3xl font-semibold tracking-widest mb-4">
+          <h1 className="mb-4 flex justify-center pt-4 text-4xl font-semibold tracking-widest">
             CARSON H. FRANKLIN
           </h1>
-          <div className="flex bg-slate-900 rounded-lg justify-center py-4 mx-56  font-bold  text-center text-xs text-slate-400">
-            Transformative IT Manager and Managed Services Executive with over
-            20 years of experience in IT Service Delivery, Project Management,
-            and vCIO roles.
+
+          <div className=" mx-auto mb-6 text-center text-lg tracking-wider text-gray-300">
+            <h1>
+              {' '}
+              Transformative{' '}
+              <strong className="underline decoration-indigo-500">
+                IT Manager{' '}
+              </strong>
+              and{' '}
+              <strong className="underline decoration-pink-600">
+                Managed Services Executive
+              </strong>
+            </h1>
+            <h1>with over 20 years of experience in IT Service Delivery</h1>
+            <h1>Project Management, and vCIO roles.</h1>
           </div>
-         
-          
+          <div className="mx-auto flex flex-row justify-center">
+            <SocialBar />
+          </div>
         </div>
       </div>
     </div>

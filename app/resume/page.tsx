@@ -13,7 +13,7 @@ export default function Page() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="w-auto rounded-xl bg-green-900 py-2 px-5 text-lg tracking-widest hover:bg-green-800">
+              <span className="w-auto rounded-xl bg-green-900 py-1 px-5 text-lg tracking-widest hover:bg-green-800">
                 DOWNLOAD
               </span>
             </Link>
@@ -49,10 +49,10 @@ export default function Page() {
             <div className="w-full px-4">
               <div className="rounded-xl bg-gray-900 p-8">
                 <div className="mb-8 border-b border-gray-400 pb-6">
-                  <h3 className="mb-6 text-lg font-semibold text-gray-100">
+                  <h4 className="mb-6 text-xl font-semibold text-gray-100">
                     Central Coast Information Systems / Franklin Technology
                     Management, Inc.
-                  </h3>
+                  </h4>
                   <h4 className="text-md mb-6 font-semibold text-gray-100">
                     President / Technical Co-Founder
                   </h4>
@@ -103,22 +103,22 @@ export default function Page() {
                       Core Skills
                     </h3>
                     <div className="-mb-3">
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Technical Ops
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Strategy
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         IT Service Management
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Sales and Marketing
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Vendor & Contract Management
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Cloud Computing
                       </span>
                     </div>
@@ -135,16 +135,16 @@ export default function Page() {
             <div className="w-full px-4">
               <div className="rounded-xl bg-gray-900 p-8">
                 <div className="mb-8 border-b border-gray-400 pb-6">
-                  <h3 className="mb-6 text-lg font-semibold text-gray-100">
+                  <h3 className="mb-6 text-xl font-semibold text-gray-100">
                     Elevate Cloud Solutions, Inc.
                   </h3>
                   <h4 className="text-md mb-6 font-semibold text-gray-100">
                     President / Technical Co-Founder
                   </h4>
-                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-2 px-2 font-semibold leading-6 text-gray-200">
+                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-1 px-4 font-semibold leading-6 text-gray-200">
                     2020-2021
                   </span>
-                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-2 px-2 font-semibold leading-6 text-gray-200">
+                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-1 px-4 font-semibold leading-6 text-gray-200">
                     Monterey, CA
                   </span>
                   <ul className="list-disc px-4">
@@ -172,22 +172,22 @@ export default function Page() {
                       Core Skills
                     </h3>
                     <div className="-mb-3">
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Corporate Formation
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Startup Operations
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Desktop-as-a-Service
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         SaaS
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Vendor & Contract Management
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Cloud Computing
                       </span>
                     </div>
@@ -204,16 +204,16 @@ export default function Page() {
             <div className="w-full px-4">
               <div className="rounded-xl bg-gray-900 p-8">
                 <div className="mb-8 border-b border-gray-400 pb-6">
-                  <h3 className="mb-6 text-lg font-semibold text-gray-100">
+                  <h3 className="mb-6 text-xl font-semibold text-gray-100">
                     1Up Cloud, LLC
                   </h3>
                   <h4 className="text-md mb-6 font-semibold text-gray-100">
                     Technical Co-Founder
                   </h4>
-                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-2 px-2 font-semibold leading-6 text-gray-200">
+                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-1 px-4 font-semibold leading-6 text-gray-200">
                     2017-2019
                   </span>
-                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-2 px-2 font-semibold leading-6 text-gray-200">
+                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-1 px-4 font-semibold leading-6 text-gray-200">
                     Monterey, CA
                   </span>
                   <ul className="list-disc px-4">
@@ -243,22 +243,22 @@ export default function Page() {
                       Core Skills
                     </h3>
                     <div className="-mb-3">
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Web Development
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         IT Ops
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Project Management
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Amazon Web Services
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Vendor & Contract Management
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Cloud Computing
                       </span>
                     </div>
@@ -275,16 +275,16 @@ export default function Page() {
             <div className="w-full px-4">
               <div className="rounded-xl bg-gray-900 p-8">
                 <div className="mb-8 border-b border-gray-400 pb-6">
-                  <h3 className="mb-6 text-lg font-semibold text-gray-100">
+                  <h3 className="mb-6 text-xl font-semibold text-gray-100">
                     US Wired, Inc
                   </h3>
                   <h4 className="text-md mb-6 font-semibold text-gray-100">
                     Senior Systems Engineer
                   </h4>
-                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-2 px-2 font-semibold leading-6 text-gray-200">
+                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-1 px-4 font-semibold leading-6 text-gray-200">
                     2005-2007
                   </span>
-                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-2 px-2 font-semibold leading-6 text-gray-200">
+                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-1 px-4 font-semibold leading-6 text-gray-200">
                     San Jose, CA
                   </span>
                   <ul className="list-disc px-4">
@@ -310,16 +310,16 @@ export default function Page() {
                       Core Skills
                     </h3>
                     <div className="-mb-3">
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Network Design
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         IT Ops
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Systems Administration
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         IT Consulting
                       </span>
                     </div>
@@ -336,16 +336,16 @@ export default function Page() {
             <div className="w-full px-4">
               <div className="rounded-xl bg-gray-900 p-8">
                 <div className="mb-8 border-b border-gray-400 pb-6">
-                  <h3 className="mb-6 text-lg font-semibold text-gray-100">
+                  <h3 className="mb-6 text-xl font-semibold text-gray-100">
                     Applied Digital Solutions, Inc
                   </h3>
                   <h4 className="text-md mb-6 font-semibold text-gray-100">
                     Senior Systems Engineer
                   </h4>
-                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-2 px-2 font-semibold leading-6 text-gray-200">
+                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-1 px-4 font-semibold leading-6 text-gray-200">
                     2001-2005
                   </span>
-                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-2 px-2 font-semibold leading-6 text-gray-200">
+                  <span className="mb-3 mr-3 inline-block rounded-full bg-blue-900 py-1 px-4 font-semibold leading-6 text-gray-200">
                     Monterey, CA
                   </span>
                   <ul className="list-disc px-4">
@@ -370,22 +370,22 @@ export default function Page() {
                       Core Skills
                     </h3>
                     <div className="-mb-3">
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Network Design
                       </span>
-                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         IT Ops
                       </span>
-                      <span className="mb-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Project Management
                       </span>
-                      <span className="mb-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Enterprise Deployments
                       </span>
-                      <span className="mb-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         Systems Administration
                       </span>
-                      <span className="mb-3 inline-block rounded-full bg-green-900 py-2 px-4 leading-6 text-gray-300">
+                      <span className="mb-3 mr-3 inline-block rounded-full bg-green-900 py-1 px-4 leading-6 text-gray-300">
                         IT Consulting
                       </span>
                     </div>

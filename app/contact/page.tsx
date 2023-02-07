@@ -1,19 +1,84 @@
-import { ExternalLink } from '#/ui/ExternalLink';
+'use client';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import Script from 'next/script';
 
-export default function Page() {
+export default function ContactPage() {
   return (
-    <div className="space-y-4">
-      <h1 className="text-xl font-medium text-gray-400/80">Blank Contact Page</h1>
+    <section className="py-5">
+      <div className="container mx-auto px-4">
+        <div className="mx-auto max-w-2xl text-center">
+          <div className="mx-auto mb-8 max-w-md">
+            <h2 className="font-heading mt-2 text-4xl font-semibold tracking-widest">
+              CONTACT
+            </h2>
+          </div>
+          <div>
+            <form action="?" method="POST">
+              <div
+                className="g-recaptcha"
+                data-sitekey="6LdDalwkAAAAAIcLAMG9mSw7i3C0Gtj0doO1tEA1"
+              ></div>
+              <div className="mb-4">
+                <input
+                  className="bg-blueGray-50 w-full rounded p-4 text-xs font-semibold leading-none outline-none"
+                  type="text"
+                  placeholder="Subject"
+                />
+              </div>
+              <div className="mb-4">
+                <input
+                  className="bg-blueGray-50 w-full rounded p-4 text-xs font-semibold leading-none outline-none"
+                  type="text"
+                  placeholder="Name"
+                  name="user_name"
+                />
+              </div>
+              <div className="mb-4">
+                <input
+                  className="bg-blueGray-50 w-full rounded p-4 text-xs font-semibold leading-none outline-none"
+                  type="email"
+                  placeholder="name@example.com"
+                  name="user_email"
+                />
+              </div>
+              <div className="mb-4">
+                <textarea
+                  className="bg-blueGray-50 h-24 w-full resize-none rounded p-4 text-xs font-semibold leading-none outline-none"
+                  type="text"
+                  placeholder="Message..."
+                ></textarea>
+              </div>
 
-      <div className="space-y-4">
-        <ul className="list-disc space-y-2 pl-4 text-sm text-gray-300">
-          <li>
-            A blank contact page for me to use.
-          </li>
-          <li>Lots of stuff</li>
-        </ul>
+              <div className="flex items-center justify-between">
+                <label>
+                  <input
+                    className="mr-1"
+                    type="checkbox"
+                    name="terms"
+                    value="1"
+                  />
+                  <span className="text-sm font-semibold">
+                    I agree to terms and conditions.
+                  </span>
+                </label>
+                <button
+                  className="rounded bg-slate-700 py-4 px-8 text-sm font-semibold leading-none text-white hover:bg-blue-700"
+                  type="submit"
+                  value="Submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-
-    </div>
+      <Script
+        src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async
+        defer
+      />
+    </section>
   );
 }

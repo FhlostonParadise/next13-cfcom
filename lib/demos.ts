@@ -18,6 +18,13 @@ export const demos: { name: string; items: Item[] }[] = [
         slug: 'about',
         description: 'Organize routes without affecting URL paths',
       },
+
+      {
+        name: 'Blog',
+        slug: 'blog',
+        description: 'Organize routes without affecting URL paths',
+      },
+
       {
         name: 'Contact',
         slug: 'contact',
@@ -59,6 +66,7 @@ export const demos: { name: string; items: Item[] }[] = [
         name: 'Design',
         slug: 'ssr',
         description: 'Server-render pages',
-      }]}]
-      
-
+      },
+    ],
+  },
+];
