@@ -396,6 +396,31 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <section>
+        <div className="bg-black px-8 pt-8 pb-2">
+          <div className="border-b border-gray-500 pb-6">
+            <h4 className="mb-1 text-2xl font-semibold uppercase leading-6 tracking-widest text-white">
+              Education
+            </h4>
+          </div>
+        </div>
+      </section>
+      <section className="py-4">
+        <div className="container mx-auto px-4">
+          <div className="-mx-4 flex flex-wrap">
+            <div className="w-full px-4">
+              <div className="rounded-xl bg-gray-900 p-8">
+                <div className="mb-8 border-b border-gray-400 pb-6">
+                  <h5 className="mb-6 text-xl font-semibold text-gray-100">
+                    1999-2004: CSU Monterey Bay - Telecommunications,
+                    Multimedia, and Applied Computing
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

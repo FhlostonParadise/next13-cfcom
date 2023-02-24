@@ -22,12 +22,10 @@
     "@heroicons/react": "1.0.6",
     "@next/mdx": "13.1.6",
     "@tailwindcss/forms": "0.5.3",
-    "@tailwindcss/line-clamp": "0.4.2",
     "classnames": "2.3.2",
     "clsx": "1.2.1",
     "date-fns": "2.29.3",
     "dayjs": "1.11.7",
-    "dinero.js": "2.0.0-alpha.8",
     "emailjs": "4.0.1",
     "glob": "8.1.0",
     "gray-matter": "4.0.3",
@@ -40,8 +38,7 @@
     "react-dom": "18.2.0",
     "react-icons": "4.7.1",
     "reading-time": "1.5.0",
-    "styled-components": "6.0.0-beta.2",
-    "use-count-up": "3.0.1"
+    "styled-components": "6.0.0-beta.2"
   },
   "devDependencies": {
     "@tailwindcss/typography": "0.5.9",

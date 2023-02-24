@@ -1,18 +1,14 @@
-import getPostMetadata from '../../components/getPostMetadata';
-import PostPreview from '../../components/PostPreview';
+import getPostMetaData from '#/components/getPostMetaData';
+import PostPreview from '#/components/PostPreview';
 
 const BlogPage = () => {
-  const postMetadata = getPostMetadata();
-  const postPreviews = postMetadata.map((post) => (
+  const postMetaData = getPostMetaData();
+  const postPreviews = postMetaData.map((post) => (
     <PostPreview key={post.slug} {...post} />
   ));
 
   return (
-    <div className="bg-black">
-      <div className="grid grid-cols-1 gap-4 bg-black md:grid-cols-2">
-        {postPreviews}
-      </div>
-    </div>
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-3">{postPreviews}</div>
   );
 };
 

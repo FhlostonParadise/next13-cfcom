@@ -50,35 +50,17 @@ export default function ContactPage() {
                 ></textarea>
               </div>
 
-              <div className="flex items-center justify-between">
-                <label>
-                  <input
-                    className="mr-1"
-                    type="checkbox"
-                    name="terms"
-                    value="1"
-                  />
-                  <span className="text-sm font-semibold">
-                    I agree to terms and conditions.
-                  </span>
-                </label>
-                <button
-                  className="rounded bg-slate-700 py-4 px-8 text-sm font-semibold leading-none text-white hover:bg-blue-700"
-                  type="submit"
-                  value="Submit"
-                >
-                  Submit
-                </button>
-              </div>
+              <button
+                className="rounded bg-slate-700 py-2 px-8 text-sm font-semibold leading-none text-white hover:bg-blue-700"
+                type="submit"
+                value="Submit"
+              >
+                Submit
+              </button>
             </form>
           </div>
         </div>
       </div>
-      <Script
-        src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-        async
-        defer
-      />
     </section>
   );
 }

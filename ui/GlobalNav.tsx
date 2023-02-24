@@ -1,14 +1,13 @@
 'use client';
 
-import { demos, type Item } from '#/lib/demos';
-import { NextLogo } from '#/ui/NextLogo';
+import { demos, type Item } from '#/lib/navigation';
 import Link from 'next/link';
-import Image from 'next/image'
+import Image from 'next/image';
 import { useSelectedLayoutSegment } from 'next/navigation';
 import { MenuAlt2Icon, XIcon } from '@heroicons/react/solid';
 import clsx from 'clsx';
 import { useState } from 'react';
-import CHFLogo from '../public/CFLogo.png'
+import CHFLogo from '../public/CFLogo.png';
 
 export function GlobalNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,18 +21,9 @@ export function GlobalNav() {
           className="group flex w-full items-center gap-x-2.5 lg:justify-center"
           onClick={close}
         >
-        {/*   <div className="h-7 w-7 rounded-full border border-white/30 group-hover:border-white/50">
-            <NextLogo />
-          </div> */}
           <div className="lg:mt-4">
-            <Image
-            src={CHFLogo}
-            width={180}
-            alt="Me"
-            />
+            <Image src={CHFLogo} width={180} alt="Me" />
           </div>
-
-          
         </Link>
       </div>
       <button
@@ -61,11 +51,11 @@ export function GlobalNav() {
           {demos.map((section) => {
             return (
               <div key={section.name}>
-                <div className="text-right mb-2 border-gray-100 rounded-lg px-3 text-lg font-semibold bg-gray-900 uppercase tracking-widest text-gray-100/80">
+                <div className="text-md mb-2 rounded-lg border-gray-100 bg-gray-900 px-3 text-right font-semibold uppercase tracking-widest text-gray-100/80">
                   <div>{section.name}</div>
                 </div>
 
-                <div className="space-y-1 text-right">
+                <div className="text-md space-y-1 text-right font-bold">
                   {section.items.map((item) => (
                     <GlobalNavItem key={item.slug} item={item} close={close} />
                   ))}
@@ -94,7 +84,7 @@ function GlobalNavItem({
       onClick={close}
       href={`/${item.slug}`}
       className={clsx(
-        'block rounded-md px-3 py-2 text-md font-light hover:text-gray-300',
+        'text-md block rounded-md px-3 py-1 font-light hover:text-gray-300',
         {
           'text-gray-300 hover:bg-gray-800': !isActive,
           'text-white': isActive,

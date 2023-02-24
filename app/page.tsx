@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Mbay from '../public/mbay-round.png';
 import SocialBar from '#/components/SocailBar';
 
 export default function Page() {
@@ -8,7 +7,7 @@ export default function Page() {
       <div className="mx-auto flex flex-col justify-center ">
         <Image
           className="mx-auto flex rounded-full border-2 border-slate-700 drop-shadow-xl"
-          src={Mbay}
+          src="/mbay-round.png"
           width={250}
           height={250}
           alt="Me"

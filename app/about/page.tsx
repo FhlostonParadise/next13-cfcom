@@ -20,16 +20,24 @@ export default function Page() {
                     A Bit About Me
                   </h2>
                   <div className="max-w-sm">
-                    <p className="mb-6 text-sm leading-loose text-gray-300 lg:mb-0">
-                      I believe one of my strengths is an ability to view
-                      technology from the lens of a pragmatist and optomist at
-                      the same time. This was a direct result of my time working
-                      for, and then running a Managed Service Provider.
-                      Stability, was a prerequsite for innovation and growth.
-                      Innovation was a prerequsite for profitability and
-                      success. It was the original DevOps mechanism. Balancing
-                      innovation and stability.{' '}
-                    </p>
+                    <div className="mb-4 text-sm leading-relaxed">
+                      <p>
+                        My career has thus far, been about using technology to
+                        help clients gain a competitive advantage, protect their
+                        organization from external and internal threats, and
+                        provide guidance on which solutions are best suited for
+                        them.{' '}
+                      </p>
+                    </div>
+                    <div className="mb-4 text-sm leading-relaxed">
+                      <p>
+                        Working for, and running a Managed Service Provider has
+                        given me the unique opportunity to work with clients
+                        across numerous industries. These include state and
+                        local government, law enforcement, non-profits,
+                        high-tech, agriculture, legal, and education.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -73,8 +81,8 @@ export default function Page() {
               </span>
               <div className="max-w-xs px-4">
                 <p className="text-sm leading-loose text-gray-400">
-                  I have Assisted in large scale deployments across the country
-                  for multiple Fortune 100 companies.
+                  I have assisted and run large scale deployments across the
+                  country for multiple Fortune 100 companies.
                 </p>
               </div>
             </div>

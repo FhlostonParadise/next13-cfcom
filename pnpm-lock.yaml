@@ -5,7 +5,6 @@ specifiers:
   '@heroicons/react': 1.0.6
   '@next/mdx': 13.1.6
   '@tailwindcss/forms': 0.5.3
-  '@tailwindcss/line-clamp': 0.4.2
   '@tailwindcss/typography': 0.5.9
   '@types/ms': 0.7.31
   '@types/node': 18.11.17
@@ -17,7 +16,6 @@ specifiers:
   clsx: 1.2.1
   date-fns: 2.29.3
   dayjs: 1.11.7
-  dinero.js: 2.0.0-alpha.8
   emailjs: 4.0.1
   eslint: 8.30.0
   eslint-config-next: 13.1.0
@@ -39,19 +37,16 @@ specifiers:
   styled-components: 6.0.0-beta.2
   tailwindcss: 3.2.4
   typescript: 4.9.4
-  use-count-up: 3.0.1
 
 dependencies:
   '@emailjs/browser': 3.10.0
   '@heroicons/react': 1.0.6_react@18.2.0
   '@next/mdx': 13.1.6
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.4
-  '@tailwindcss/line-clamp': 0.4.2_tailwindcss@3.2.4
   classnames: 2.3.2
   clsx: 1.2.1
   date-fns: 2.29.3
   dayjs: 1.11.7
-  dinero.js: 2.0.0-alpha.8
   emailjs: 4.0.1_typescript@4.9.4
   glob: 8.1.0
   gray-matter: 4.0.3
@@ -65,7 +60,6 @@ dependencies:
   react-icons: 4.7.1_react@18.2.0
   reading-time: 1.5.0
   styled-components: 6.0.0-beta.2_biqbaboplfbrettd7655fr4n2y
-  use-count-up: 3.0.1_react@18.2.0
 
 devDependencies:
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.4
@@ -1720,31 +1714,6 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@dinero.js/calculator-number/2.0.0-alpha.8:
-    resolution:
-      {
-        integrity: sha512-/L+N7g5DjcS6wlMb2hcOXWBKW2TGiG+vZDZr9ow0nsHUTdwtMarL1bmBH9fGldHhH2XsxcrjN9H+036yeNzh3Q==,
-      }
-    dependencies:
-      '@dinero.js/core': 2.0.0-alpha.8
-    dev: false
-
-  /@dinero.js/core/2.0.0-alpha.8:
-    resolution:
-      {
-        integrity: sha512-3jaw2j6J/SshlCZz5KhHkh8zP47HRmt9RpnjR0BJs2awpweVuZIyyX9qzGVUEVpml9IwzQ1U+YdXevhOxtcDgg==,
-      }
-    dependencies:
-      '@dinero.js/currencies': 2.0.0-alpha.8
-    dev: false
-
-  /@dinero.js/currencies/2.0.0-alpha.8:
-    resolution:
-      {
-        integrity: sha512-zApiqtuuPwjiM9LJA5/kNcT48VSHRiz2/mktkXjIpfxrJKzthXybUAgEenExIH6dYhLDgVmsLQZtZFOsdYl0Ag==,
-      }
-    dev: false
-
   /@emailjs/browser/3.10.0:
     resolution:
       {
@@ -2176,17 +2145,6 @@ packages:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.2.4_postcss@8.4.20
-    dev: false
-
-  /@tailwindcss/line-clamp/0.4.2_tailwindcss@3.2.4:
-    resolution:
-      {
-        integrity: sha512-HFzAQuqYCjyy/SX9sLGB1lroPzmcnWv1FHkIpmypte10hptf4oPUfucryMKovZh2u0uiS9U5Ty3GghWfEJGwVw==,
-      }
-    peerDependencies:
-      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
-    dependencies:
       tailwindcss: 3.2.4_postcss@8.4.20
     dev: false
 
@@ -3248,17 +3206,6 @@ packages:
         integrity: sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==,
       }
     engines: { node: '>=0.3.1' }
-    dev: false
-
-  /dinero.js/2.0.0-alpha.8:
-    resolution:
-      {
-        integrity: sha512-6bl+g6oh6iQ6vPR5Pd4qr7D+P5e51GYRUT3jl8HYqYeejYC5sd9OVTTbXC3WU7L25mAIbOm+diiTVz1rL4QLwg==,
-      }
-    dependencies:
-      '@dinero.js/calculator-number': 2.0.0-alpha.8
-      '@dinero.js/core': 2.0.0-alpha.8
-      '@dinero.js/currencies': 2.0.0-alpha.8
     dev: false
 
   /dir-glob/3.0.1:
@@ -7176,29 +7123,6 @@ packages:
     dependencies:
       punycode: 2.1.1
     dev: true
-
-  /use-count-up/3.0.1_react@18.2.0:
-    resolution:
-      {
-        integrity: sha512-jlVsXJYje6jh+xwQaCEYrwHoB+nRyillNEmr21bhe9kw7tpRzyrSq9jQs9UOlo+8hCFkuOmjUihL3IjEK/piVg==,
-      }
-    peerDependencies:
-      react: '>=16.8.0'
-    dependencies:
-      react: 18.2.0
-      use-elapsed-time: 3.0.2_react@18.2.0
-    dev: false
-
-  /use-elapsed-time/3.0.2_react@18.2.0:
-    resolution:
-      {
-        integrity: sha512-2EY9lJ5DWbAvT8wWiEp6Ztnl46DjXz2j78uhWbXaz/bg3OfpbgVucCAlcN8Bih6hTJfFTdVYX9L6ySMn5py/wQ==,
-      }
-    peerDependencies:
-      react: '>=16.8.0'
-    dependencies:
-      react: 18.2.0
-    dev: false
 
   /util-deprecate/1.0.2:
     resolution:
