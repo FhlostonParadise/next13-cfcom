@@ -83,7 +83,7 @@ export default function Page() {
                       offices across the US.
                     </li>
                     <li>
-                      Received recognition as one of The Channel Co.'s
+                      Received recognition as one of The Channel COs
                       fastest-growing Managed Service Providers in 2015, 2016,
                       2017.
                     </li>

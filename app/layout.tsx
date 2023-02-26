@@ -13,7 +13,7 @@ export default function RootLayout({
     <html lang="en" className="[color-scheme:dark]">
       <head />
       {/* <body className="overflow-y-scroll bg-gray-1100 bg-[url('/grid.svg')]"> */}
-      <body className="overflow-y-scroll bg-slate-800">
+      <body className=" bg-slate-800">
         <GlobalNav />
 
         <div className="lg:pl-72">

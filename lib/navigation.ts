@@ -44,8 +44,8 @@ export const demos: { name: string; items: Item[] }[] = [
       },
       {
         name: 'Project Portfolio',
-        slug: 'error-handling',
-        description: 'Create error UI for specific parts of an app',
+        slug: 'projects',
+        description: 'Projects Portfolio',
       },
       {
         name: 'About This Site',
