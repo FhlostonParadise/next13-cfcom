@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { ExternalLink } from '#/ui/ExternalLink';
 
 export default function Page() {
   return (

@@ -1,7 +1,4 @@
 'use client';
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import Script from 'next/script';
 
 export default function ContactPage() {
   return (

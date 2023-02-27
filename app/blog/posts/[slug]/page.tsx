@@ -2,7 +2,6 @@ import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import getPostMetaData from '#/components/getPostMetaData';
-import CoverImage from '#/components/CoverImage';
 
 const getPostContent = (slug: string) => {
   const folder = 'posts/';

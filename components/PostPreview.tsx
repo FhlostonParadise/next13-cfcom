@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PostMetaData } from './PostMetaData';
+
 import CoverImage from './CoverImage';
 
 type Props = {

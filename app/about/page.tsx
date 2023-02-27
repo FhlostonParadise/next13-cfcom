@@ -1,4 +1,3 @@
-import { ExternalLink } from '#/ui/ExternalLink';
 import Image from 'next/image';
 import Mbay from '../../public/mbay-round.png';
 export default function Page() {

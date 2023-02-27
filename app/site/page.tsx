@@ -1,5 +1,3 @@
-import { ExternalLink } from '#/ui/ExternalLink';
-import { VercelLogo } from '#/ui/VercelLogo';
 export default function Page() {
   return (
     <section className="overflow-hidden bg-black pt-8 pb-32">
