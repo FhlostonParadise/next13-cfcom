@@ -19,14 +19,12 @@ export default function ContactPage() {
               <div className="mb-4">
                 <input
                   className="bg-blueGray-50 w-full rounded p-4 text-xs font-semibold leading-none outline-none"
-                  type="text"
                   placeholder="Subject"
                 />
               </div>
               <div className="mb-4">
                 <input
                   className="bg-blueGray-50 w-full rounded p-4 text-xs font-semibold leading-none outline-none"
-                  type="text"
                   placeholder="Name"
                   name="user_name"
                 />
@@ -34,7 +32,6 @@ export default function ContactPage() {
               <div className="mb-4">
                 <input
                   className="bg-blueGray-50 w-full rounded p-4 text-xs font-semibold leading-none outline-none"
-                  type="email"
                   placeholder="name@example.com"
                   name="user_email"
                 />
@@ -42,7 +39,6 @@ export default function ContactPage() {
               <div className="mb-4">
                 <textarea
                   className="bg-blueGray-50 h-24 w-full resize-none rounded p-4 text-xs font-semibold leading-none outline-none"
-                  type="text"
                   placeholder="Message..."
                 ></textarea>
               </div>
