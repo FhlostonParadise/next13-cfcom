@@ -1,6 +1,7 @@
 import '#/styles/globals.css';
 import { AddressBar } from '#/ui/AddressBar';
 import { GlobalNav } from '#/ui/GlobalNav';
+import Analytics from '#/components/Analytics';
 
 export default function RootLayout({
   children,
@@ -13,7 +14,7 @@ export default function RootLayout({
       {/* <body className="overflow-y-scroll bg-gray-1100 bg-[url('/grid.svg')]"> */}
       <body className="overflow-y-scroll bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-700 to-slate-900">
         <GlobalNav />
-
+        <Analytics />
         <div className="lg:pl-72">
           <div className="max-w-8xl mx-auto space-y-6 px-2 pt-20 lg:py-8 lg:px-8">
             <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">
