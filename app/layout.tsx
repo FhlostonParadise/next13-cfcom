@@ -1,7 +1,8 @@
 import '#/styles/globals.css';
 import { AddressBar } from '#/ui/AddressBar';
 import { GlobalNav } from '#/ui/GlobalNav';
-import Analytics from '#/components/Analytics';
+import GAnalytics from '../components/GAnalytics';
+import { AnalyticsWrapper } from '../components/analytics';
 
 export default function RootLayout({
   children,
@@ -11,10 +12,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="[color-scheme:dark]">
       <head />
-      {/* <body className="overflow-y-scroll bg-gray-1100 bg-[url('/grid.svg')]"> */}
-      <body className="overflow-y-scroll bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-sky-700 to-slate-900">
+      <body className="overflow-y-scroll bg-slate-900">
+        {/* <body className="overflow-y-scroll bg-gray-1100 bg-[url('/grid.svg')]"> */}
+        {/* <body className="overflow-y-scroll linear-gradient(rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0))"> */}
         <GlobalNav />
-        <Analytics />
+
         <div className="lg:pl-72">
           <div className="max-w-8xl mx-auto space-y-6 px-2 pt-20 lg:py-8 lg:px-8">
             <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">
@@ -26,6 +28,8 @@ export default function RootLayout({
             <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">
               <div className="h-auto rounded-lg bg-black p-3.5 lg:p-6">
                 {children}
+                <AnalyticsWrapper />
+                <GAnalytics />
               </div>
             </div>
 

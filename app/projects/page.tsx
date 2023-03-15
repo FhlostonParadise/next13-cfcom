@@ -1,12 +1,12 @@
 export default function Page() {
   return (
-    <div className="container my-4 mx-auto px-6">
+    <div className="container my-4 mx-auto hidden px-6">
       <section className="mb-32 text-center text-gray-300 lg:text-left">
         <h2 className="mb-12 text-center text-3xl font-semibold tracking-wider">
           Project Portfolio - Work in Progress
         </h2>
 
-        <div className="mb-6 grid gap-x-6 lg:grid-cols-3">
+        <div className="display:none mb-6 grid gap-x-6 lg:grid-cols-3">
           <div className="mb-12 rounded-xl border border-slate-800 bg-slate-900 lg:mb-0">
             <div className="relative mb-4 overflow-hidden rounded-tr-xl rounded-tl-xl bg-cover bg-no-repeat shadow-lg">
               <img

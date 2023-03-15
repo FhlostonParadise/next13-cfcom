@@ -1,6 +1,6 @@
 import Script from 'next/script';
 
-function Analytics() {
+function GAnalytics() {
   return (
     <div className="container">
       <Script
@@ -20,4 +20,4 @@ function Analytics() {
   );
 }
 
-export default Analytics;
+export default GAnalytics;
