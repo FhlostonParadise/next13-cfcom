@@ -3,6 +3,7 @@ import { AddressBar } from '#/ui/AddressBar';
 import { GlobalNav } from '#/ui/GlobalNav';
 import GAnalytics from '../components/GAnalytics';
 import { AnalyticsWrapper } from '../components/analytics';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function RootLayout({
   children,
@@ -30,6 +31,7 @@ export default function RootLayout({
                 {children}
                 <AnalyticsWrapper />
                 <GAnalytics />
+                <Analytics />
               </div>
             </div>
 
