@@ -3,7 +3,6 @@ import { AddressBar } from '#/ui/AddressBar';
 import { GlobalNav } from '#/ui/GlobalNav';
 import GAnalytics from '../components/GAnalytics';
 import { AnalyticsWrapper } from '../components/analytics';
-import { Analytics } from '@vercel/analytics/react';
 
 export default function RootLayout({
   children,
@@ -29,7 +28,7 @@ export default function RootLayout({
             <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">
               <div className="h-auto rounded-lg bg-black p-3.5 lg:p-6">
                 {children}
-                <Analytics />
+
                 <AnalyticsWrapper />
                 <GAnalytics />
               </div>
